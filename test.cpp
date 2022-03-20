@@ -6,7 +6,7 @@ class Singleton{
     public:
         static Singleton* createInstance();
         Singleton(Singleton&other) = delete;
-        void operator=(Singleton&other) = delete;
+        
 
 };
 Singleton::Singleton()
