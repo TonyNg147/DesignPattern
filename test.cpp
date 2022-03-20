@@ -5,7 +5,7 @@ class Singleton{
         static Singleton* _mObject;
     public:
         static Singleton* createInstance();
-        Singleton(Singleton&other) = delete;
+        
         
 
 };
